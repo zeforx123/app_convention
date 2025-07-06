@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765882164627",
+    "project_id": "app-convention",
+    "storage_bucket": "app-convention.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765882164627:android:9b8a6e1d97b3449f5af466",
+        "android_client_info": {
+          "package_name": "com.example.app_convention"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIhvCNi_QA0Durp_4gI2AsQ84d5dij96M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

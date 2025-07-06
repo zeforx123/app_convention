@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // ✅ más moderno, mejor compatibilidad
+    "module": "commonjs",
+    "lib": ["es2020"], // ✅ necesario para async/await y promesas modernas
+    "outDir": "lib",
+    "strict": true,
+    "esModuleInterop": true, // ✅ permite imports compatibles con paquetes comunes
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true
+  },
+  "compileOnSave": true,
+  "include": ["src"]
+}

@@ -1,0 +1,43 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "app-convention",
+          "appId": "1:765882164627:android:9b8a6e1d97b3449f5af466",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "app-convention",
+          "appId": "1:765882164627:ios:bf4fa9a177f5dd1d5af466",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "app-convention",
+          "appId": "1:765882164627:ios:bf4fa9a177f5dd1d5af466",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "app-convention",
+          "configurations": {
+            "android": "1:765882164627:android:9b8a6e1d97b3449f5af466",
+            "ios": "1:765882164627:ios:bf4fa9a177f5dd1d5af466",
+            "macos": "1:765882164627:ios:bf4fa9a177f5dd1d5af466",
+            "windows": "1:765882164627:web:9c280ebe0c8159cd5af466"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "predeploy": "npm --prefix \"$RESOURCE_DIR\" run build"
+  }
+}
